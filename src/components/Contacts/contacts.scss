@@ -1,0 +1,124 @@
+@import "../../var";
+
+
+.contacts {
+  display: inline-block;
+  padding: 30px;
+  background: $white;
+  border-radius: 20px;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  .title {
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95px;
+  cursor: pointer;
+
+
+
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 95px;
+    height: 95px;
+    border-radius: 20px;
+  }
+
+  p {
+    color: $disable;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.6s;
+  }
+
+  &:hover {
+    .avatar {
+      border-width: 2px;
+    }
+  }
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.green {
+  .avatar {
+    background: $light-green;
+    border: 0px solid #00933f;
+  }
+
+  &:hover {
+    p {
+      color:  #00933f;
+    }
+  }
+}
+
+.red {
+  .avatar {
+    background: #FFD3E2;
+    border: 0px solid #DF3670;
+  }
+
+  &:hover {
+    p {
+      color:  #DF3670;
+    }
+  }
+}
+
+.orange {
+  .avatar {
+    background: #FEE4CB;
+    border: 0px solid #f18217;
+  }
+
+  &:hover {
+    p {
+      color:  #f18217;
+    }
+  }
+}
+
+.violet {
+  .avatar {
+    background: #E9E7FD;
+    border: 0px solid #301cf1;
+  }
+
+  &:hover {
+    p {
+      color:  #301cf1;
+    }
+  }
+}
+
+.blue {
+  .avatar {
+    background: #DBF6FD;
+    border: 0px solid #10c1ef;
+  }
+
+  &:hover {
+    p {
+      color:  #10c1ef;
+    }
+  }
+}

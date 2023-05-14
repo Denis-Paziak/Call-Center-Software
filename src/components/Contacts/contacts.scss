@@ -2,7 +2,6 @@
 
 
 .contacts {
-  display: inline-block;
   padding: 30px;
   background: $white;
   border-radius: 20px;
@@ -23,8 +22,6 @@
   align-items: center;
   width: 95px;
   cursor: pointer;
-
-
 
   .avatar {
     display: flex;
@@ -53,7 +50,7 @@
 
 .row {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
   margin-top: 25px;
 }

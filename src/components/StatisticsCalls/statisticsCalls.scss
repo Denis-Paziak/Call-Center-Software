@@ -1,0 +1,53 @@
+@import "../../var";
+
+.statisticsCalls {
+  padding: 30px;
+  background: $white;
+  border-radius: 20px;
+}
+
+.statisticsCalls-item {
+  margin-top: 20px;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progress {
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+
+    div {
+      height: 5px;
+      background: $blue;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  }
+
+  .blue {
+    background: $light-blue;
+
+    div {
+      background: $blue;
+    }
+  }
+
+  .green {
+    background: $light-green;
+
+    div {
+      background: $green;
+    }
+  }
+
+  .red {
+    background: $light-red;
+
+    div {
+      background: $red;
+    }
+  }
+}

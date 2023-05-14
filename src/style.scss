@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 @import "var";
 
 * {
@@ -8,6 +9,7 @@
 
 body {
   background: $bg;
+  font-family: Cabin, sans-serif;
 }
 
 .wrapper {
@@ -18,4 +20,8 @@ button {
   background: transparent;
   outline: none;
   border: none;
+}
+
+.main {
+  padding: 25px;
 }

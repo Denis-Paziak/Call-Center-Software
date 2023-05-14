@@ -1,0 +1,56 @@
+@import "../../var";
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    transition: 0.6s;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .fill {
+    path {
+      fill: $disable;
+      transition: 0.6s;
+    }
+
+    &:hover {
+      path {
+        fill: $white;
+      }
+    }
+  }
+
+  .stroke {
+    path {
+      stroke: $disable;
+      transition: 0.6s;
+    }
+
+    &:hover {
+      path {
+        stroke: $white;
+      }
+    }
+  }
+
+  a:hover {
+    background: $hover;
+  }
+
+}

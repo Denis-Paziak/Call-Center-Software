@@ -1,9 +1,11 @@
 import React from 'react';
+import Sidebar from "../Sidebar/Sidebar";
+import "../../style.scss";
 
 const App = () => {
     return (
-        <div>
-            Hello
+        <div className="wrapper">
+            <Sidebar/>
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./sidebar.scss";
 import Nav from "../Nav/Nav";
+import Setting from "../Setting/Setting";
 
 const Sidebar = () => {
     return (
@@ -29,6 +30,7 @@ const Sidebar = () => {
                 </svg>
             </div>
             <Nav />
+            <Setting/>
         </div>
     );
 };

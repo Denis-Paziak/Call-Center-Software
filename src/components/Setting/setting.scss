@@ -1,0 +1,12 @@
+@import "../../var";
+
+.setting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 40px;
+  button {
+    margin-bottom: 25px;
+  }
+}

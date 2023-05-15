@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Contacts from "../Contacts/Contacts";
 import "./main.scss"
 import StatisticsCalls from "../StatisticsCalls/StatisticsCalls";
+import Performance from "../Performance/Performance";
 
 const Main = () => {
     return (
@@ -11,6 +12,7 @@ const Main = () => {
             <div className="container">
                 <Contacts/>
                 <StatisticsCalls />
+                <Performance />
             </div>
         </div>
     );

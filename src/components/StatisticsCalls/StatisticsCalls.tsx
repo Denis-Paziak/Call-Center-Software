@@ -1,14 +1,13 @@
 import React from 'react';
 import "./statisticsCalls.scss";
 
-
-interface istatisticsCallsItem {
+interface iStatisticsCallsItem {
     text: string,
     color: string,
     progress: string
 }
 
-const data : istatisticsCallsItem [] = [
+const data : iStatisticsCallsItem [] = [
     {
         text: "Web Designing",
         color: "blue",

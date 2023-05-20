@@ -4,6 +4,8 @@ import "./performance.scss";
 import performance1 from "../../img/Performance1.jpg";
 import performance2 from "../../img/Performance2.jpg";
 
+
+
 const Performance = () => {
     return (
         <div className="performance">

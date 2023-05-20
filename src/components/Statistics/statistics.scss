@@ -1,0 +1,24 @@
+@import "../../var";
+
+.statistics {
+  padding: 30px;
+  background: $white;
+  border-radius: 20px;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sort {
+    display: flex;
+  }
+
+  .chart {
+    width: 100%;
+    height: 400px;
+  }
+}

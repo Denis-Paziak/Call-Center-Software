@@ -154,11 +154,14 @@ const Statistics = () => {
                     <p>May 2022</p>
                 </div>
                 <div className="sort">
-                    <p>Sort by:</p>
-
-                    <select>
-                        <option>Mounth</option>
-                    </select>
+                    <p className="text">Sort by:</p>
+                    <p>Monthly
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+                                <path d="M8.22929 0.937531L4.43136 5.00781L0.633423 0.937531" fill="#C4C4C4"/>
+                            </svg>
+                        </span>
+                    </p>
                 </div>
             </div>
 
